@@ -1,6 +1,6 @@
 # David Ortega
 
-![Alt text for the image](/20231209101533.png)
+![Alt text for the image](/20231209102627.png)
 
 **Contact:** davidortegaingeniero@gmail.com
 
@@ -23,3 +23,55 @@ Software Engineer, 40 years old, with high working and learning skills. Experien
 - **Project Management Executive Program (PMP),** ESIC Business & Marketing School
 - **Cryptography I,** Stanford University
 - **Supercomputing,** Universidad de Las Palmas de Gran Canaria
+
+
+## Skills
+
+### Backend Development:
+- Java
+- Spring MVC
+- Microservices
+- C#
+- Python
+- Bash
+- PL/SQL
+
+### Frontend Development:
+- JavaScript
+- JQuery
+- Twitter Bootstrap
+- NodeJS
+- Html5
+- CSS3
+- Asp.Net MVC
+- JEE6
+- JSF2
+- JSF
+
+### Databases:
+- Oracle
+- MS SQL
+- MySQL
+- AS400/DB2
+
+### DevOps and Utilities:
+- Docker
+- Kubernetes
+- Ansible
+- Maven
+- Gradle
+
+### Version Control and Testing:
+- Git
+- TDD (Test-Driven Development)
+- Jenkins
+
+### Development Tools:
+- IntelliJ
+- Eclipse
+- Visual Studio
+- Sonar
+- Artifactory
+- Netsparker
+- NexusIQ
+
