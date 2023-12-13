@@ -140,53 +140,20 @@ Google
 - **Supercomputing,** Universidad de Las Palmas de Gran Canaria
 
 
-## Skills
+## Specialties and Skills
 
-### Backend Development:
-- Java
-- Spring MVC
-- Microservices
-- C#
-- Python
-- Bash
-- PL/SQL
+**Technical Proficiencies:**
+- Advanced knowledge in **Java**, **Python**, **Spring**, **Micronaut**, and **Software Architecture**.
+- Proficient in cloud technologies including **AWS** and **Azure**.
+- Extensive experience with **JSF2**, **Jdo**, **JSP**, **Web Services**, **CSharp**, **.NET**, **MVC**, and more.
+- Skilled in **Docker**, **XML**, **HTML**, **CSS**, **JavaScript**, and **Ajax** frameworks.
 
-### Frontend Development:
-- JavaScript
-- JQuery
-- Twitter Bootstrap
-- NodeJS
-- Html5
-- CSS3
-- Asp.Net MVC
-- JEE6
-- JSF2
-- JSF
+**Soft Skills:**
+- **Leadership:** Demonstrated leadership skills as a Senior Software Developer and CIO, leading cross-functional teams in high-pressure environments.
+- **Team Management:** Effective in managing diverse development teams, fostering a collaborative and innovative work culture.
+- **Problem-Solving:** Proven ability to troubleshoot and resolve complex technical issues, enhancing system performance and efficiency.
+- **Strategic Planning:** Skilled in strategic IT planning and implementation, aligning technology initiatives with business goals.
 
-### Databases:
-- Oracle
-- MS SQL
-- MySQL
-- AS400/DB2
-
-### DevOps and Utilities:
-- Docker
-- Kubernetes
-- Ansible
-- Maven
-- Gradle
-
-### Version Control and Testing:
-- Git
-- TDD (Test-Driven Development)
-- Jenkins
-
-### Development Tools:
-- IntelliJ
-- Eclipse
-- Visual Studio
-- Sonar
-- Artifactory
-- Netsparker
-- NexusIQ
-
+**Achievements:**
+- As CIO at Diners Club Spain, successfully managed the IT pillars of Development, Infrastructures, and Operations, ensuring seamless integration and technical evolution.
+- Recognized for resolving technical debt and enhancing system capabilities in different industries, contributing to operational resilience.
