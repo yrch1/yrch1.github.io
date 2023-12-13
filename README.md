@@ -108,6 +108,28 @@ Design and development of Capri, our new Authorizing Center which would be the r
 AS400 Authorizing Center. Capri is being developed using Asp.Net MVC as frontend with a couple of windows
 service, developed in c# 4.5 , as backend using WebServices as communication mechanism between them.
 
+### Senior Software Engineer at Diners Club Spain
+*February 2012 - August 2014*
+
+Design and development of Atrium, a client portal and internal working tool.
+Our first milestone was to rebuild the existing application improving security, performance and usability. Design
+of a new architecture using JSF2, JDO 3, Ajax
+
+### Senior Software Engineer at Trentisa 
+*June 2010 - January 2012*
+
+Development of web applications for bank sector companies, such as Banco Santander.
+Using a proprietary CASE tool called Halee to generate J2EE code for SIBBAC and ATRIUM projects. In this project
+we use JSF, JDO and SDO
+
+### Junior Software Engineer & SEO at Rumbo.com
+*2008 – 2010*
+
+Development of websites Rumbo.es, Rumbo.com, Viajar.com, Opodo.es
+I was part of the SEO team, developing and applying several techniques for increasing browser ranking. We
+achieved to increase a 20 percent the number of visits multiplying by 1000 the number of webpages indexed by
+Google
+
 ## Education
 
 - **B.Sc. + M.Sc. Computer Engineering,** Universidad de Las Palmas de Gran Canaria, 2001 – 2009
