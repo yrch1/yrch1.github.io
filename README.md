@@ -6,9 +6,19 @@
 
 Software Engineer, 40 years old, with high working and learning skills. Experienced in conceptualizing, designing, and developing applications. Skilled in debugging and understanding codes developed by third parties. Committed to quality and continuous improvement in internal work processes and software.
 
-## Specialties
+## Specialties and Skills
 
-- **Key Skills:** Java, Python, Spring, Micronaut, Software Architecture, AWS, Azure, Leadership, JSF2, Jdo, JSP, Web Services, CSharp, .NET, MVC, Maven, Ansible, Docker, XML, HTML, CSS, JavaScript, Ajax (jQuery, prototype), Oracle PL/SQL, MySQL, Jpa, Hibernate.
+**Technical Proficiencies:**
+- Advanced knowledge in **Java**, **Python**, **Spring**, **Micronaut**, and **Software Architecture**.
+- Proficient in cloud technologies including **AWS** and **Azure**.
+- Extensive experience with **JSF2**, **Jdo**, **JSP**, **Web Services**, **CSharp**, **.NET**, **MVC**, and more.
+- Skilled in **Docker**, **XML**, **HTML**, **CSS**, **JavaScript**, and **Ajax** frameworks.
+
+**Soft Skills:**
+- **Leadership:** Demonstrated leadership skills as a Senior Software Developer and CIO, leading cross-functional teams in high-pressure environments.
+- **Team Management:** Effective in managing diverse development teams, fostering a collaborative and innovative work culture.
+- **Problem-Solving:** Proven ability to troubleshoot and resolve complex technical issues, enhancing system performance and efficiency.
+- **Strategic Planning:** Skilled in strategic IT planning and implementation, aligning technology initiatives with business goals.
 
 ## Experience
 
@@ -138,22 +148,3 @@ Google
 - **Project Management Executive Program (PMP),** ESIC Business & Marketing School
 - **Cryptography I,** Stanford University
 - **Supercomputing,** Universidad de Las Palmas de Gran Canaria
-
-
-## Specialties and Skills
-
-**Technical Proficiencies:**
-- Advanced knowledge in **Java**, **Python**, **Spring**, **Micronaut**, and **Software Architecture**.
-- Proficient in cloud technologies including **AWS** and **Azure**.
-- Extensive experience with **JSF2**, **Jdo**, **JSP**, **Web Services**, **CSharp**, **.NET**, **MVC**, and more.
-- Skilled in **Docker**, **XML**, **HTML**, **CSS**, **JavaScript**, and **Ajax** frameworks.
-
-**Soft Skills:**
-- **Leadership:** Demonstrated leadership skills as a Senior Software Developer and CIO, leading cross-functional teams in high-pressure environments.
-- **Team Management:** Effective in managing diverse development teams, fostering a collaborative and innovative work culture.
-- **Problem-Solving:** Proven ability to troubleshoot and resolve complex technical issues, enhancing system performance and efficiency.
-- **Strategic Planning:** Skilled in strategic IT planning and implementation, aligning technology initiatives with business goals.
-
-**Achievements:**
-- As CIO at Diners Club Spain, successfully managed the IT pillars of Development, Infrastructures, and Operations, ensuring seamless integration and technical evolution.
-- Recognized for resolving technical debt and enhancing system capabilities in different industries, contributing to operational resilience.
