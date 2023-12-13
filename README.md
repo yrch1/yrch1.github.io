@@ -1,7 +1,5 @@
 # David Ortega
 
-![Alt text for the image](/20231209102627.png)
-
 **Contact:** davidortegaingeniero@gmail.com
 
 ## About Me
