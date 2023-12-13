@@ -12,6 +12,20 @@ Software Engineer, 40 years old, with high working and learning skills. Experien
 
 - **Key Skills:** Java, Python, Spring, Micronaut, Software Architecture, AWS, Azure, Leadership, JSF2, Jdo, JSP, Web Services, CSharp, .NET, MVC, Maven, Ansible, Docker, XML, HTML, CSS, JavaScript, Ajax (jQuery, prototype), Oracle PL/SQL, MySQL, Jpa, Hibernate.
 
+## Experience
+
+### Senior Software Developer at SwissRE
+*June 2023 – Currently*
+
+#### Responsibilities:
+- Orchestrated the enhancement of the "Customer Identity Access Management" system using Java 17, Spring Boot, and integrating Okta API for secure, reliable backend solutions.
+- Mentored junior engineers, instilling high standards and technical prowess, while navigating a dynamic, hybrid work environment.
+- Cooperated with various departments to ensure robust, high-quality deliverables, utilizing Oracle databases for enhanced security compliance and performance.
+
+#### Achievements:
+- Led the deployment of pivotal features within the Customer Identity Access Management platform, fortifying cybersecurity measures and reducing system vulnerabilities.
+- Garnered recognition for swiftly resolving technical debt and enhancing system capabilities, significantly contributing to Swiss Re's operational resilience.
+
 
 ## Education
 
