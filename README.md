@@ -92,6 +92,22 @@ platforms, which include:
 - Dynamics CRM
 - Java 8
 
+### R&D Manager at Diners Club Spain
+*August 2014 - August 2016*
+ 
+As R&D manager my goals include developing new products to improving QA. My work is focused on renewing
+our IT department technologically, providing technical assistance and following new IT trends.
+
+#### Responsibilities:
+- Creation and development of new products
+- Technical support to other IT departments - Scrum Master
+- Deputy team leader.
+
+As a part of my role, I continue developing and currently, we are focused on:
+Design and development of Capri, our new Authorizing Center which would be the replacement of the current
+AS400 Authorizing Center. Capri is being developed using Asp.Net MVC as frontend with a couple of windows
+service, developed in c# 4.5 , as backend using WebServices as communication mechanism between them.
+
 ## Education
 
 - **B.Sc. + M.Sc. Computer Engineering,** Universidad de Las Palmas de Gran Canaria, 2001 – 2009
