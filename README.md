@@ -26,6 +26,20 @@ Software Engineer, 40 years old, with high working and learning skills. Experien
 - Led the deployment of pivotal features within the Customer Identity Access Management platform, fortifying cybersecurity measures and reducing system vulnerabilities.
 - Garnered recognition for swiftly resolving technical debt and enhancing system capabilities, significantly contributing to Swiss Re's operational resilience.
 
+### Senior Software Engineer at Nexthink
+*January 2022 – May 2023*
+
+#### Responsibilities:
+- Design, implement, test, deliver, and maintain Nexthink product’s features.
+- Proactively collaborate with Product Management, Designers, and all types of Engineering stakeholders to maintain a high bar for quality in a fast-paced, iterative environment.
+- Advocate for improvements to product, security, and performance.
+- Solve technical problems that have a large scope, complexity, and business impact.
+- Craft code that meets our standards for style, maintainability, and best practices. Maintain and advocate for these standards through code review.
+- Recognize impediments to our efficiency as a team ("technical debt"), propose and implement solutions.
+- Ship complex features and improvements.
+- Handle L3 support requests (together with the rest of the team).
+- Work with the agile iterative/incremental mindset and best practices, and participate actively in the different ceremonials.
+
 
 ## Education
 
