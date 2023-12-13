@@ -72,6 +72,26 @@ architecture task.
 - Vendor relations
 - Head of Research and Development
 
+### Solution Architect at Diners Club Spain 
+*September 2016 - July 2017*
+
+As Solution Architect my task is to structure, plan and ensure the proper working of our company's different IT
+projects. For this, I seek the highest degree of connectivity between systems and the people involved.
+
+#### Responsibilities:
+- Architectural definition of new projects
+- Remodelling and upgrading existing projects
+- Bringing together the different participants of the project, seeking optimal, flexible, high-quality developments.
+- Head of Research and Development
+
+The main project I am participating in right now is the redesign process of our main AS400 system to new
+platforms, which include:
+
+- Restful WebService
+- DotNet
+- Dynamics CRM
+- Java 8
+
 ## Education
 
 - **B.Sc. + M.Sc. Computer Engineering,** Universidad de Las Palmas de Gran Canaria, 2001 – 2009
