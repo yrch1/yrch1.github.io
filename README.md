@@ -49,7 +49,6 @@ Infrastructures and Operations, seeking a seamless work between them in the tech
 company is involved.
 
 #### Responsibilities:
-
 - Member of C-Suit Board
 - Development team management, leading Java and .Net projects
 - Direct and organise IT-related projects
@@ -58,6 +57,20 @@ or applications
 - Analyse the costs, value and risks of information technology to advise management and suggest actions
 - R&D
 - BAU
+
+### Head of Development at Diners Club Spain 
+*July 2017 - March 2018*
+
+As Head of Development, my task is to plan and handle all the company IT projects with a multidisciplinary
+development team. Also, I must make and keep relations with different vendors, prepare budgets and
+architecture task.
+
+#### Responsibilities:
+- Architectural definition of new projects
+- Bringing together the different participants of the project, seeking optimal, flexible, high-quality developments.
+- Planning and budgets
+- Vendor relations
+- Head of Research and Development
 
 ## Education
 
