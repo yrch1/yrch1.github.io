@@ -40,6 +40,24 @@ Software Engineer, 40 years old, with high working and learning skills. Experien
 - Handle L3 support requests (together with the rest of the team).
 - Work with the agile iterative/incremental mindset and best practices, and participate actively in the different ceremonials.
 
+### Chief Information Officer at Diners Club Spain
+*April 2018 – January 2022*
+
+Being CIO in any company means to ensure that information technology adds the maximum value to our company
+to facilitate the success of our business. As CIO I am responsible for the three Diners Club IT pillars: Development,
+Infrastructures and Operations, seeking a seamless work between them in the technical evolution where the
+company is involved.
+
+#### Responsibilities:
+
+- Member of C-Suit Board
+- Development team management, leading Java and .Net projects
+- Direct and organise IT-related projects
+- Collaborate with other professionals to determine functional and non-functional requirements for new software
+or applications
+- Analyse the costs, value and risks of information technology to advise management and suggest actions
+- R&D
+- BAU
 
 ## Education
 
