@@ -1,24 +1,36 @@
 # David Ortega
 
-**Contact:** davidortegaingeniero@gmail.com
+**Contact:** davidortegaingeniero@gmail.com | +34 690 965 819 | [linkedin.com/in/ortegadavid](https://linkedin.com/in/ortegadavid)
 
 ## About Me
 
-Software Engineer, 40 years old, with high working and learning skills. Experienced in conceptualizing, designing, and developing applications. Skilled in debugging and understanding codes developed by third parties. Committed to quality and continuous improvement in internal work processes and software.
+Solutions Architect and Technical Lead with 15+ years delivering scalable, secure, and high-performance platforms in fintech and banking environments.
+
+Currently at KnowMadMood, leading platform transformation assessments (AS-IS/TO-BE), pre-sales engagements, and engineering platform strategy for banking clients. Specialized in platform decomposition, integration platforms, and journey-to-cloud initiatives.
+
+Strong technical background in Java microservices, cloud-native and event-driven architectures, with direct experience in technical team leadership and architecture decision-making on mission-critical projects.
+
+Deep expertise in API-first design, security (OAuth2, JWT, Okta), CI/CD, observability, and AWS/hybrid cloud environments. Proven track record reducing technical debt, mentoring teams, and aligning technology with business goals.
 
 ## Specialties and Skills
 
-**Technical Proficiencies:**
-- Advanced knowledge in **Java**, **Python**, **Spring**, **Micronaut**, and **Software Architecture**.
-- Proficient in cloud technologies including **AWS** and **Azure**.
-- Extensive experience with **JSF2**, **Jdo**, **JSP**, **Web Services**, **CSharp**, **.NET**, **MVC**, and more.
-- Skilled in **Docker**, **XML**, **HTML**, **CSS**, **JavaScript**, and **Ajax** frameworks.
+**Leadership & Pre-Sales:**
+Technical Team Leadership, Engineering Management, Mentoring & Coaching, Pre-Sales & Solution Design, Stakeholder Management, Agile (Scrum/Kanban), Cross-Functional Collaboration, Technical Decision-Making
 
-**Soft Skills:**
-- **Leadership:** Demonstrated leadership skills as a Senior Software Developer and CIO, leading cross-functional teams in high-pressure environments.
-- **Team Management:** Effective in managing diverse development teams, fostering a collaborative and innovative work culture.
-- **Problem-Solving:** Proven ability to troubleshoot and resolve complex technical issues, enhancing system performance and efficiency.
-- **Strategic Planning:** Skilled in strategic IT planning and implementation, aligning technology initiatives with business goals.
+**Programming & Frameworks:**
+Java (11/17), Python, C#, Spring Boot, Micronaut, React (basic), JPA, Hibernate
+
+**Architecture & Methodologies:**
+Microservices, Event-Driven Systems (Kafka), RESTful APIs, OpenAPI, Domain-Driven Design (DDD), TDD, BDD, Clean Architecture, Design Patterns, Platform Transformation (AS-IS/TO-BE)
+
+**Cloud & Infrastructure:**
+AWS, Azure, Kubernetes, Docker, Docker Compose, CI/CD (Maven, Gradle, Jenkins, GitHub Actions), Observability (Elastic, SonarQube, Logging/Tracing)
+
+**Databases:**
+Oracle, IBM DB2, MySQL, PostgreSQL, NoSQL, PL/SQL, Database Performance Optimization
+
+**Security & Compliance:**
+OAuth 2.0, JWT, Okta, Secure SDLC, PCI DSS, GDPR
 
 ## Experience
 
@@ -99,7 +111,7 @@ architecture task.
 - Head of Research and Development
 
 ### Solution Architect at Diners Club Spain 
-*September 2016 - July 2017*
+*September 2016 - June 2017*
 
 As Solution Architect my task is to structure, plan and ensure the proper working of our company's different IT
 projects. For this, I seek the highest degree of connectivity between systems and the people involved.
