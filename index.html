@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Ortega – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:      #0d1b2a;
+      --navy-mid:  #132237;
+      --navy-card: #1a2e45;
+      --navy-line: #243b55;
+      --teal:      #00b4d8;
+      --teal-dim:  #0096b4;
+      --white:     #f0f6fc;
+      --muted:     #8baabb;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --radius:    8px;
+      --transition: 180ms ease;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--navy);
+      color: var(--white);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    a { color: var(--teal); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(13, 27, 42, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--navy-line);
+      padding: 0 2rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--teal);
+      letter-spacing: 0.06em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color var(--transition);
+    }
+
+    .nav-links a:hover { color: var(--white); text-decoration: none; }
+
+    /* ── LAYOUT ── */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 80px 2rem 4rem;
+    }
+
+    section { padding: 4rem 0; border-bottom: 1px solid var(--navy-line); }
+    section:last-child { border-bottom: none; }
+
+    h2 {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 2rem;
+    }
+
+    /* ── HERO ── */
+    #about {
+      padding-top: 5rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    .about-text {}
+
+    .about-text h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 0.35rem;
+    }
+
+    .about-text .subtitle {
+      font-size: 1rem;
+      color: var(--teal);
+      font-family: var(--font-mono);
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.03em;
+    }
+
+    .about-text p {
+      color: var(--muted);
+      max-width: 560px;
+      font-size: 0.97rem;
+    }
+
+    .profile-photo {
+      width: 148px;
+      height: 148px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--teal);
+      flex-shrink: 0;
+    }
+
+    /* ── EXPERIENCE ── */
+    .exp-list { display: flex; flex-direction: column; gap: 1.5rem; }
+
+    .exp-card {
+      background: var(--navy-card);
+      border: 1px solid var(--navy-line);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.75rem;
+      transition: border-color var(--transition);
+    }
+
+    .exp-card:hover { border-color: var(--teal-dim); }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.75rem;
+    }
+
+    .exp-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .exp-company {
+      font-size: 0.88rem;
+      color: var(--teal);
+      margin-top: 0.15rem;
+      font-weight: 500;
+    }
+
+    .exp-date {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--muted);
+      white-space: nowrap;
+      padding-top: 0.15rem;
+    }
+
+    .exp-body {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .exp-body ul {
+      padding-left: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .exp-body li { list-style: disc; }
+
+    .exp-body p { margin-bottom: 0.5rem; }
+
+    .exp-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--white);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-top: 0.75rem;
+      margin-bottom: 0.35rem;
+    }
+
+    /* ── SKILLS ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .skill-group {
+      background: var(--navy-card);
+      border: 1px solid var(--navy-line);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+    }
+
+    .skill-group h3 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 0.9rem;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .tag {
+      background: var(--navy-line);
+      color: var(--white);
+      font-size: 0.78rem;
+      font-family: var(--font-mono);
+      padding: 0.25rem 0.65rem;
+      border-radius: 4px;
+    }
+
+    .soft-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .soft-list li {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .soft-list strong { color: var(--white); }
+
+    /* ── EDUCATION / COURSES ── */
+    .edu-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .edu-item {
+      background: var(--navy-card);
+      border: 1px solid var(--navy-line);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.5rem;
+      font-size: 0.92rem;
+    }
+
+    .edu-item strong { color: var(--white); }
+    .edu-item span { color: var(--muted); font-size: 0.85rem; }
+
+    /* ── CONTACT ── */
+    #contact p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--navy-card);
+      border: 1px solid var(--navy-line);
+      border-radius: var(--radius);
+      padding: 0.7rem 1.3rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--teal);
+      transition: border-color var(--transition), background var(--transition);
+    }
+
+    .contact-link:hover {
+      border-color: var(--teal);
+      background: var(--navy-line);
+      text-decoration: none;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-family: var(--font-mono);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      #about {
+        grid-template-columns: 1fr;
+      }
+      .profile-photo {
+        width: 110px;
+        height: 110px;
+        order: -1;
+      }
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      main { padding-left: 1.25rem; padding-right: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="nav-logo">david.ortega</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-text">
+        <h1>David Ortega</h1>
+        <p class="subtitle">TEAMMATE / SOFTWARE ENGINEER / FATHER</p>
+        <p>
+          Software Engineer with high working and learning skills. Experienced in conceptualizing,
+          designing, and developing applications. Skilled in debugging and understanding code developed
+          by third parties. Committed to quality and continuous improvement in internal work processes
+          and software.
+        </p>
+      </div>
+      <img class="profile-photo" src="DavidOrtegaProfile.jpg" alt="David Ortega" />
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="exp-list">
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Solutions Architect</div>
+              <div class="exp-company">KnowMadMood</div>
+            </div>
+            <div class="exp-date">Feb 2026 – Present</div>
+          </div>
+          <div class="exp-body">
+            <ul>
+              <li>Leading solution architecture and pre-sales engagements for banking clients</li>
+              <li>Conducting AS-IS / TO-BE assessments for platform transformation programs</li>
+              <li>Designing engineering platforms, integration platforms, and journey-to-cloud strategies</li>
+              <li>Supporting international expansion assessments and lifecycle platform transformation initiatives</li>
+              <li>Engaging with high-level technical and business stakeholders to align solutions with business goals</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Tech Lead – Java Microservices</div>
+              <div class="exp-company">CaixaBank Tech at Globant</div>
+            </div>
+            <div class="exp-date">Nov 2024 – Jan 2026</div>
+          </div>
+          <div class="exp-body">
+            <ul>
+              <li>Oversaw technical direction of a full ecosystem of Java microservices in the capital markets domain</li>
+              <li>Responsible for architecture, solution design, code quality, and overall technical delivery</li>
+              <li>Led a team of six developers (senior and junior profiles)</li>
+              <li>Tech stack: Java 11, Spring Boot, OpenAPI, React, Absis framework</li>
+              <li>End-to-end technical leadership: proposals, estimations, architectural decisions, mentoring, stakeholder alignment</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Senior Software Developer</div>
+              <div class="exp-company">SwissRE</div>
+            </div>
+            <div class="exp-date">Jun 2023 – Nov 2024</div>
+          </div>
+          <div class="exp-body">
+            <p class="exp-label">Responsibilities</p>
+            <ul>
+              <li>Orchestrated the enhancement of the "Customer Identity Access Management" system using Java 17, Spring Boot, and integrating Okta API for secure, reliable backend solutions.</li>
+              <li>Mentored junior engineers, instilling high standards and technical prowess, while navigating a dynamic, hybrid work environment.</li>
+              <li>Cooperated with various departments to ensure robust, high-quality deliverables, utilizing Oracle databases for enhanced security compliance and performance.</li>
+            </ul>
+            <p class="exp-label">Achievements</p>
+            <ul>
+              <li>Led the deployment of pivotal features within the Customer Identity Access Management platform, fortifying cybersecurity measures and reducing system vulnerabilities.</li>
+              <li>Garnered recognition for swiftly resolving technical debt and enhancing system capabilities, significantly contributing to Swiss Re's operational resilience.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Senior Software Engineer</div>
+              <div class="exp-company">Nexthink</div>
+            </div>
+            <div class="exp-date">Jan 2022 – May 2023</div>
+          </div>
+          <div class="exp-body">
+            <ul>
+              <li>Design, implement, test, deliver, and maintain Nexthink product's features.</li>
+              <li>Proactively collaborate with Product Management, Designers, and all types of Engineering stakeholders to maintain a high bar for quality in a fast-paced, iterative environment.</li>
+              <li>Advocate for improvements to product, security, and performance.</li>
+              <li>Solve technical problems that have a large scope, complexity, and business impact.</li>
+              <li>Craft code that meets standards for style, maintainability, and best practices. Maintain and advocate for these standards through code review.</li>
+              <li>Recognize impediments to efficiency as a team ("technical debt"), propose and implement solutions.</li>
+              <li>Ship complex features and improvements.</li>
+              <li>Handle L3 support requests (together with the rest of the team).</li>
+              <li>Work with the agile iterative/incremental mindset and best practices, and participate actively in the different ceremonials.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Chief Information Officer</div>
+              <div class="exp-company">Diners Club Spain</div>
+            </div>
+            <div class="exp-date">Apr 2018 – Jan 2022</div>
+          </div>
+          <div class="exp-body">
+            <p>Being CIO means ensuring that information technology adds maximum value to the company to facilitate the success of the business. Responsible for the three Diners Club IT pillars: Development, Infrastructures, and Operations.</p>
+            <p class="exp-label">Responsibilities</p>
+            <ul>
+              <li>Member of C-Suite Board</li>
+              <li>Development team management, leading Java and .Net projects</li>
+              <li>Direct and organise IT-related projects</li>
+              <li>Collaborate with other professionals to determine functional and non-functional requirements for new software or applications</li>
+              <li>Analyse the costs, value and risks of information technology to advise management and suggest actions</li>
+              <li>R&amp;D and BAU</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Head of Development</div>
+              <div class="exp-company">Diners Club Spain</div>
+            </div>
+            <div class="exp-date">Jul 2017 – Mar 2018</div>
+          </div>
+          <div class="exp-body">
+            <p>Planned and handled all company IT projects with a multidisciplinary development team. Managed vendor relations, budgets, and architecture tasks.</p>
+            <ul>
+              <li>Architectural definition of new projects</li>
+              <li>Bringing together different project participants, seeking optimal, flexible, high-quality developments</li>
+              <li>Planning and budgets</li>
+              <li>Vendor relations</li>
+              <li>Head of Research and Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Solution Architect</div>
+              <div class="exp-company">Diners Club Spain</div>
+            </div>
+            <div class="exp-date">Sep 2016 – Jul 2017</div>
+          </div>
+          <div class="exp-body">
+            <p>Structured, planned, and ensured the proper working of the company's different IT projects, seeking the highest degree of connectivity between systems and people involved.</p>
+            <ul>
+              <li>Architectural definition of new projects</li>
+              <li>Remodelling and upgrading existing projects</li>
+              <li>Bringing together project participants, seeking optimal, flexible, high-quality developments</li>
+              <li>Head of Research and Development</li>
+              <li>Led redesign of AS400 system to new platforms: RESTful Web Services, .NET, Dynamics CRM, Java 8</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">R&amp;D Manager</div>
+              <div class="exp-company">Diners Club Spain</div>
+            </div>
+            <div class="exp-date">Aug 2014 – Aug 2016</div>
+          </div>
+          <div class="exp-body">
+            <p>Developed new products, improved QA, and led technological renewal of the IT department. Key project: design and development of Capri, the new Authorizing Center replacing the AS400 system, built with ASP.NET MVC, C# 4.5 Windows Services, and WebServices.</p>
+            <ul>
+              <li>Creation and development of new products</li>
+              <li>Technical support to other IT departments – Scrum Master</li>
+              <li>Deputy team leader</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Senior Software Engineer</div>
+              <div class="exp-company">Diners Club Spain</div>
+            </div>
+            <div class="exp-date">Feb 2012 – Aug 2014</div>
+          </div>
+          <div class="exp-body">
+            <p>Design and development of Atrium, a client portal and internal working tool. Rebuilt the existing application improving security, performance, and usability. Designed a new architecture using JSF2, JDO 3, Ajax.</p>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Senior Software Engineer</div>
+              <div class="exp-company">Trentisa</div>
+            </div>
+            <div class="exp-date">Jun 2010 – Jan 2012</div>
+          </div>
+          <div class="exp-body">
+            <p>Development of web applications for bank sector companies, such as Banco Santander. Used a proprietary CASE tool (Halee) to generate J2EE code for SIBBAC and ATRIUM projects using JSF, JDO, and SDO.</p>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Junior Software Engineer &amp; SEO</div>
+              <div class="exp-company">Rumbo.com</div>
+            </div>
+            <div class="exp-date">2008 – 2010</div>
+          </div>
+          <div class="exp-body">
+            <p>Development of websites Rumbo.es, Rumbo.com, Viajar.com, Opodo.es. Part of the SEO team applying techniques to increase browser ranking — achieved a 20% increase in visits and multiplied by 1000 the number of webpages indexed by Google.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3>Technical</h3>
+          <div class="skill-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Micronaut</span>
+            <span class="tag">C# / .NET</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Azure</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">OpenAPI</span>
+            <span class="tag">React</span>
+            <span class="tag">JSF2 / JDO</span>
+            <span class="tag">Web Services</span>
+            <span class="tag">HTML / CSS / JS</span>
+            <span class="tag">XML</span>
+            <span class="tag">Software Architecture</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Soft Skills</h3>
+          <ul class="soft-list">
+            <li><strong>Leadership</strong> — cross-functional teams in high-pressure environments</li>
+            <li><strong>Team Management</strong> — fostering collaborative and innovative culture</li>
+            <li><strong>Problem-Solving</strong> — complex technical issues, system performance</li>
+            <li><strong>Strategic Planning</strong> — aligning technology initiatives with business goals</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education &amp; Courses</h2>
+      <div class="edu-list">
+
+        <div class="edu-item">
+          <strong>B.Sc. + M.Sc. Computer Engineering</strong><br />
+          <span>Universidad de Las Palmas de Gran Canaria &nbsp;·&nbsp; 2001 – 2009</span>
+        </div>
+
+        <div class="edu-item">
+          <strong>Cloud Computing con AWS</strong><br />
+          <span>Universitat Politècnica de València (UPV)</span>
+        </div>
+
+        <div class="edu-item">
+          <strong>Project Management Executive Program (PMP)</strong><br />
+          <span>ESIC Business &amp; Marketing School</span>
+        </div>
+
+        <div class="edu-item">
+          <strong>Cryptography I</strong><br />
+          <span>Stanford University</span>
+        </div>
+
+        <div class="edu-item">
+          <strong>Supercomputing</strong><br />
+          <span>Universidad de Las Palmas de Gran Canaria</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out by email.</p>
+      <a class="contact-link" href="mailto:davidortegaingeniero@gmail.com">
+        davidortegaingeniero@gmail.com
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2026 David Ortega Vázquez
+  </footer>
+
+</body>
+</html>
