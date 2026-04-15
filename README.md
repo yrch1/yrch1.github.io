@@ -40,7 +40,7 @@ Software Engineer, 40 years old, with high working and learning skills. Experien
 - Tech stack: Java 11, Spring Boot, OpenAPI, React, Absis framework
 - End-to-end technical leadership: proposals, estimations, architectural decisions, mentoring, stakeholder alignment
 
-### Senior Software Developer at SwissRE
+### Senior Software Developer at Swiss Re
 *June 2023 – November 2024*
 
 #### Responsibilities:
