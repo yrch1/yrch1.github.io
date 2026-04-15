@@ -1,6 +1,6 @@
 # David Ortega
 
-**Contact:** davidortegaingeniero@gmail.com | +34 690 965 819 | [linkedin.com/in/ortegadavid](https://linkedin.com/in/ortegadavid)
+**Contact:** davidortegaingeniero@gmail.com | [linkedin.com/in/ortegadavid](https://linkedin.com/in/ortegadavid)
 
 ## About Me
 
