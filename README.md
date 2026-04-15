@@ -22,8 +22,26 @@ Software Engineer, 40 years old, with high working and learning skills. Experien
 
 ## Experience
 
+### Solutions Architect at KnowMadMood
+*February 2026 – Present*
+
+- Leading solution architecture and pre-sales engagements for banking clients
+- Conducting AS-IS / TO-BE assessments for platform transformation programs
+- Designing engineering platforms, integration platforms, and journey-to-cloud strategies
+- Supporting international expansion assessments and lifecycle platform transformation initiatives
+- Engaging with high-level technical and business stakeholders to align solutions with business goals
+
+### Tech Lead – Java Microservices | CaixaBank Tech at Globant
+*November 2024 – January 2026*
+
+- Oversaw technical direction of a full ecosystem of Java microservices in the capital markets domain
+- Responsible for architecture, solution design, code quality, and overall technical delivery
+- Led a team of six developers (senior and junior profiles)
+- Tech stack: Java 11, Spring Boot, OpenAPI, React, Absis framework
+- End-to-end technical leadership: proposals, estimations, architectural decisions, mentoring, stakeholder alignment
+
 ### Senior Software Developer at SwissRE
-*June 2023 – Currently*
+*June 2023 – November 2024*
 
 #### Responsibilities:
 - Orchestrated the enhancement of the "Customer Identity Access Management" system using Java 17, Spring Boot, and integrating Okta API for secure, reliable backend solutions.
